@@ -1,0 +1,8 @@
+import(rpart)
+export(stima,summary.rt,stima.control,plot.rt,prune.rt)
+exportClasses("rt")
+S3method(summary,rt)
+S3method(plot,rt)
+S3method(prune,rt)
+useDynLib("stima")
+
