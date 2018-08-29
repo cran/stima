@@ -10,8 +10,8 @@
 !
 !     Parameters
 !
-	   integer n
-      real*8  x(n),y(n),mx,my,c
+      integer n
+      real(8)  x(n),y(n),mx,my,c
 !
       include 'rs_calls.h'
 !
@@ -23,9 +23,9 @@
 !
       c=0.0d0
       do i=1,n
-	      c=c+(x(i)-mx)*(y(i)-my)
-	   end do
+          c=c+(x(i)-mx)*(y(i)-my)
+      end do
       c=c/dble(n)
 
-	   return
-	   end
+       return
+       end

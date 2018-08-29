@@ -18,7 +18,7 @@ a tree of class \code{rt}, that is, a regression trunk. This is the result of \c
 the dataset that was used to create the regression trunk.
 }
   \item{c.par}{
-the pruning parameter (\emph{c}) that will be used in the \emph{c*SE} rule. In the default option, the pruning function uses the best value of \emph{c}, as recommended by Dusseldorp, Conversano & van Os (2010). This best value depends on the sample size of the included dataset.
+the pruning parameter (\emph{c}) that will be used in the \emph{c*SE} rule. In the default option, the pruning function uses the best value of \emph{c}, as recommended by Dusseldorp, Conversano & Van Os (2010). This best value depends on the sample size of the included dataset.
 }
  \item{\dots}{
 additional arguments to be passed.  
@@ -29,7 +29,7 @@ The function returns the pruned regression trunk, and the corresponding regressi
 }
 \references{
 
-Dusseldorp, E. Conversano, C., and Os, B.J. (2010). Combining an additive and tree-based regression model simultaneously: STIMA. \emph{Journal of Computational and Graphical Statistics, 19(3)}, 514-530.
+Dusseldorp, E. Conversano, C., and Van Os, B.J. (2010). Combining an additive and tree-based regression model simultaneously: STIMA. \emph{Journal of Computational and Graphical Statistics, 19(3)}, 514-530.
 }
 \seealso{
  \code{\link{stima},\link{summary.rt}}

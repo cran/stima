@@ -30,7 +30,7 @@ This is an example dataset from the statistical software program SPSS, Version 2
 IBM Corp. (2011). \emph{IBM SPSS Statistics for Windows, Version 20.0}. Armonk, NY: IBM Corp.
 
 
-Dusseldorp, E. Conversano, C., and Os, B.J. (2010). Combining an additive and tree-based regression model simultaneously: STIMA. \emph{Journal of Computational and Graphical Statistics, 19(3)}, 514-530.
+Dusseldorp, E. Conversano, C., and Van Os, B.J. (2010). Combining an additive and tree-based regression model simultaneously: STIMA. \emph{Journal of Computational and Graphical Statistics, 19(3)}, 514-530.
 }
 
 \keyword{datasets}

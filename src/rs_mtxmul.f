@@ -1,25 +1,25 @@
       subroutine rs_mtxmul(c,x,y,l,m,n)
-	implicit none
+      IMPLICIT none
 C
 C     Parameters
 C
-	integer l,m,n
-      double precision x(l,m),y(m,n),c(l,n)
+      INTEGER l,m,n
+      DOUBLE PRECISION x(l,m),y(m,n),c(l,n)
 C
 C     Local variables
 C
-      integer i,j,k
+      INTEGER i,j,k
 C
 C     Code
 C
-      do j=1,n
-	   do i=1,l
-	      c(i,j)=0.0
-	      do k=1,m
-	         c(i,j)=c(i,j)+x(i,k)*y(k,j)
-	      end do
-	   end do
-	end do
+      DO j=1,n
+       DO i=1,l
+          c(i,j)=0.0
+           DO k=1,m
+             c(i,j)=c(i,j)+x(i,k)*y(k,j)
+           END DO
+       END DO
+      END DO
 
-	return
-	end
+      RETURN
+      END

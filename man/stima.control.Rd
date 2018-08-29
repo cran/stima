@@ -38,7 +38,7 @@ a row vector that indicates the column numbers in the data frame of the predicto
 a list containing the parameters.
 }
 \references{
-Dusseldorp, E. Conversano, C., and Os, B.J. (2010). Combining an additive and tree-based regression model simultaneously: STIMA. \emph{Journal of Computational and Graphical Statistics, 19(3)}, 514-530.
+Dusseldorp, E. Conversano, C., and Van Os, B.J. (2010). Combining an additive and tree-based regression model simultaneously: STIMA. \emph{Journal of Computational and Graphical Statistics, 19(3)}, 514-530.
 }
 
 \seealso{  \code{\link{stima},\link{summary.rt},\link{plot.rt},\link{prune.rt}}}

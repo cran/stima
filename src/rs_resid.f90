@@ -1,5 +1,5 @@
       subroutine rs_resid(r,dat,m,n)
-	   implicit none
+       implicit none
 !
 !     Wrapper function for R and S.
 !     Use:
@@ -9,7 +9,7 @@
 !     Parameters
 !
       integer m,n
-      real*8  dat(m,n),r(m)
+      real(8)  dat(m,n),r(m)
 !
       include 'rs_calls.h'
 !
@@ -17,7 +17,7 @@
 !
       integer ierr
       integer i,j
-      real*8  tiny
+      real(8)  tiny
       logical qerr
       integer ,allocatable :: indx(:)
       double precision ,allocatable :: z(:)

@@ -8,8 +8,8 @@
 !
 !     Parameters
 !
-	   integer m,n
-      real*8  dat(m,n),r
+       integer m,n
+      real(8)  dat(m,n),r
 !
       include 'rs_calls.h'
 !
@@ -48,9 +48,9 @@
       do i=1,m
          y(i)=dat(i,1)
          x(i,1)=1.0
-	      do j=2,n
-	         x(i,j)=dat(i,j)
-	      end do
+          do j=2,n
+             x(i,j)=dat(i,j)
+          end do
       end do
 !     Calculate b=x'*x
       call rs_mtxmult(b,x,x,n,m,n)

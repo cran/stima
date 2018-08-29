@@ -29,13 +29,13 @@
       integer nTYP                  ! length(typ)
       integer mb                    ! minbucket
       integer critn                 ! numeric crit
-      real*8  fvec(4)               ! return vector
+      real(8)  fvec(4)               ! return vector
       integer predtree(npt)         ! predtree
       integer nodemat2(nnm2,mnm2)   ! nodemat2
-      real*8  index2(ni2)           ! index2
+      real(8)  index2(ni2)           ! index2
       integer typ(nTYP)             ! type
-      real*8  dataRTA(nRTA,mRTA)    ! dataRTA
-      real*8  dataNUM(nNUM,mNUM)    ! dataNUM
+      real(8)  dataRTA(nRTA,mRTA)    ! dataRTA
+      real(8)  dataNUM(nNUM,mNUM)    ! dataNUM
 !
       include 'rs_calls.h'
 !
@@ -43,8 +43,8 @@
 !
       integer i,j
       logical first
-      real*8  mxres
-      real*8  res(2)
+      real(8)  mxres
+      real(8)  res(2)
 !
 ! Code
 !

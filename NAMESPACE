@@ -1,8 +1,15 @@
-import(rpart)
-export(stima,summary.rt,stima.control,plot.rt,prune.rt)
-exportClasses("rt")
-S3method(summary,rt)
-S3method(plot,rt)
-S3method(prune,rt)
-useDynLib("stima")
+useDynLib("stima", .registration=TRUE)
 
+import("rpart")
+importFrom("graphics", "par", "plot", "rect", "text", "title")
+importFrom("stats", "anova", "as.formula", "cor", "fitted", "lm",
+	   "predict", "resid", "step", "var")
+
+export(
+  "stima",
+  "stima.control"
+)
+
+S3method("summary", "rt")
+S3method("plot",    "rt")
+S3method("prune",   "rt")

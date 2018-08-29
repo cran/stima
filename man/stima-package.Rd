@@ -25,7 +25,7 @@ Elise Dusseldorp, Peter Neufeglise, and Claudio Conversano, with contributions o
 Maintainer: elise.dusseldorp@tno.nl
 }
 \references{
-Dusseldorp, E. Conversano, C., and Os, B.J. (2010). Combining an additive and tree-based regression model simultaneously: STIMA. \emph{Journal of Computational and Graphical Statistics, 19(3)}, 514-530.
+Dusseldorp, E. Conversano, C., and Van Os, B.J. (2010). Combining an additive and tree-based regression model simultaneously: STIMA. \emph{Journal of Computational and Graphical Statistics, 19(3)}, 514-530.
 }
 \keyword{package}
 \keyword{regression}

@@ -16,7 +16,7 @@
 !
       integer m,n,mm,minbucket,crit
       integer nodvec(m)
-      real*8  dat(m,n),res(2),trx(mm),trx2(m)
+      real(8)  dat(m,n),res(2),trx(mm),trx2(m)
 !
       include 'rs_calls.h'
 !

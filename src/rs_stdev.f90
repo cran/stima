@@ -9,7 +9,7 @@
 !     Parameters
 !
       integer n
-      real*8  x(n), m, s
+      real(8)  x(n), m, s
 !
       include 'rs_calls.h'
 !
