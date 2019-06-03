@@ -10,6 +10,6 @@ function(x,y)
 	else
 		c<-.Fortran("rs_cov",c=as.double(0),
 		            as.double(x),as.double(y),mean.f(x),mean.f(y),
-		            as.integer(n),package="stima")$c
+		            as.integer(n),PACKAGE="stima")$c
 	return(c)
 }

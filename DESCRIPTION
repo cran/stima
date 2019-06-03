@@ -1,6 +1,6 @@
 Package: stima
 Title: Simultaneous Threshold Interaction Modeling Algorithm
-Version: 1.2
+Version: 1.2.1
 Date: 2018-08-29
 Authors@R: c(person(given = "Elise", family = "Dusseldorp", role = c("aut", "cre", "cph"), email = "elise.dusseldorp@fsw.leidenuniv.nl"),
              person(given = "Claudio", family = "Conversano", role = c("aut", "cph"), email = "conversa@unica.it"),
@@ -18,7 +18,7 @@ License: GPL-2
 LazyLoad: yes
 RoxygenNote: 6.1.0
 NeedsCompilation: yes
-Packaged: 2018-08-29 08:11:53 UTC; guadalupecanasherrera
+Packaged: 2019-06-03 10:03:38 UTC; ripley
 Author: Elise Dusseldorp [aut, cre, cph],
   Claudio Conversano [aut, cph],
   Cor Ninaber [ctb],
@@ -26,4 +26,4 @@ Author: Elise Dusseldorp [aut, cre, cph],
   Peter Neufeglise [trl],
   Juan Claramunt [ctb]
 Repository: CRAN
-Date/Publication: 2018-08-29 20:50:06 UTC
+Date/Publication: 2019-06-03 10:13:19 UTC

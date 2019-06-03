@@ -13,6 +13,6 @@ function(data,nv,col,mb,crit="f2")
 	res<-numeric(2)
   	res<-.Fortran("rs_boscats",res=as.double(res),data=as.matrix(data),
 	     as.integer(nv),as.double(col),as.integer(m),as.integer(n),
-	     as.integer(mb),as.integer(critn),package="stima")$res
+	     as.integer(mb),as.integer(critn),PACKAGE="stima")$res
 	object<-res
 }

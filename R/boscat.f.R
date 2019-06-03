@@ -24,7 +24,7 @@ function(data,nv,col,mb,crit="f2")
   	res<-.Fortran("rs_boscat",res=as.double(res),data=as.matrix(data),
 	     as.integer(nv),as.integer(m),as.integer(n),
 	     as.double(trx),as.double(trx2),as.integer(mm),
-	     as.integer(mb),as.integer(critn),package="stima")$res
+	     as.integer(mb),as.integer(critn),PACKAGE="stima")$res
 	trx2[trx2==0]<-NA
 	object<-list(res=res,ordernames=ordernames,trx=trx2)
 }

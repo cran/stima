@@ -38,6 +38,6 @@ function(dataRTA,dataNUM,nodemat,minsplit,minbucket,predtree,type,crit="f2")
                     as.integer(nRTA),as.integer(mRTA),
                     as.integer(nNUM),as.integer(mNUM),
                     as.integer(nTYP),as.integer(minbucket),
-						as.integer(critn),package="stima")$fvec
+						as.integer(critn),PACKAGE="stima")$fvec
 	fvec
 }
