@@ -13,7 +13,7 @@
       integer n
       real(8)  x(n),y(n),mx,my,c
 !
-      include 'rs_calls.h'
+!      include 'rs_calls.h'
 !
 !     Local variables
 !

@@ -37,7 +37,7 @@
       real(8)  dataRTA(nRTA,mRTA)    ! dataRTA
       real(8)  dataNUM(nNUM,mNUM)    ! dataNUM
 !
-      include 'rs_calls.h'
+!      include 'rs_calls.h'
 !
 ! Local variables
 !

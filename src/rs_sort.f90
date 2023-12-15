@@ -8,7 +8,7 @@
       integer n
       real(8)  z(n)
 !
-      include 'rs_calls.h'
+!      include 'rs_calls.h'
 !
 !     Local variables
 !

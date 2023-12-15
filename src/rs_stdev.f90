@@ -11,7 +11,7 @@
       integer n
       real(8)  x(n), m, s
 !
-      include 'rs_calls.h'
+!      include 'rs_calls.h'
 !
 !     Local variables
 !

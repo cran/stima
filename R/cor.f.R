@@ -10,3 +10,4 @@ function(x,y)
 		               as.double(x),as.double(y),as.integer(n),PACKAGE="stima")$corr
 	return(corr)
 }
+

@@ -16,7 +16,7 @@
       integer nodvec(m)
       real(8)  dat(m,n),res(2),col(m)
 !
-      include 'rs_calls.h'
+!      include 'rs_calls.h'
 !
 !     Local variables
 !
@@ -32,7 +32,7 @@
       double precision trunk,mxfvec
 
       integer mm,ncat
-      integer nxy,catnr,catnr2
+      integer nxy,catnr
 !
 !     Code
 !

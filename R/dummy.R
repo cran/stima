@@ -1,6 +1,6 @@
 dummy <-
 function(x){
-if(class(x)!="factor")
+if(!is.factor(x))# old:  class(x)!="factor")
 	{return(x)
 	}else{
 	x=as.integer(x)

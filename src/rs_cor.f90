@@ -14,7 +14,7 @@
       integer n
       double precision x(n),y(n),c
 !
-      include 'rs_calls.h'
+!      include 'rs_calls.h'
 !
 !     Local variables
 !

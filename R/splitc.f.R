@@ -41,3 +41,5 @@ function(dataRTA,dataNUM,nodemat,minsplit,minbucket,predtree,type,crit="f2")
 						as.integer(critn),PACKAGE="stima")$fvec
 	fvec
 }
+
+

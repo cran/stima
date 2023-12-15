@@ -11,7 +11,7 @@
       integer m,n
       real(8)  dat(m,n),r(m)
 !
-      include 'rs_calls.h'
+!      include 'rs_calls.h'
 !
 !     Local variables
 !

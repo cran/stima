@@ -11,12 +11,12 @@
        integer m,n
       real(8)  dat(m,n),r
 !
-      include 'rs_calls.h'
+!      include 'rs_calls.h'
 !
 !     Local variables
 !
       integer ierr
-      integer i,j,k
+      integer i,j
       double precision tiny
       logical qerr
       integer ,allocatable :: indx(:)

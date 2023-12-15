@@ -18,7 +18,7 @@
       integer nodvec(m)
       real(8)  dat(m,n),res(2),trx(mm),trx2(m)
 !
-      include 'rs_calls.h'
+!      include 'rs_calls.h'
 !
 !     Local variables
 !

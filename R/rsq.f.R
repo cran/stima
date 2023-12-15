@@ -7,3 +7,4 @@ function(x)
 	return(.Fortran("rs_rsq",r=as.double(0),as.matrix(x),
 	       as.integer(n1),as.integer(n2),PACKAGE="stima")$r)
 }
+

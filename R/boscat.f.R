@@ -1,6 +1,4 @@
-boscat.f <-
-function(data,nv,col,mb,crit="f2")
-{
+boscat.f <-function(data,nv,col,mb,crit="f2"){
 	## nv=nodevec,mb=minbucket
 	##anova(lm(data),lm(newdata))$F Value[2]
 	##(y2rsq-y1rsq)*(n1-n2)/(1-y2rsq)

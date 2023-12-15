@@ -16,3 +16,5 @@ function(data,nv,col,mb,crit="f2")
 	     as.integer(mb),as.integer(critn),PACKAGE="stima")$res
 	object<-res
 }
+
+

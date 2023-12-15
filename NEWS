@@ -1,3 +1,11 @@
+Changes in STIMA Version 1.2.2 (2019-12-3)
+============================================
+* Arguments of the .Fortran functions were converted to the correct data type as recommended in the advance R manual.
+
+Changes in STIMA Version 1.2.1 (2019-6-3)
+============================================
+* Argument PACKAGE of the .Fortran functions was corrected.
+
 Changes in STIMA Version 1.2.0 (2018-8-16)
 ============================================
 * DESCRIPTION file updated. New version, updated email address, new references and imports.
